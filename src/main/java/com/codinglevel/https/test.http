@@ -1,0 +1,14 @@
+###
+GET http://localhost:8080/showUsers
+
+###
+
+POST http://localhost:8080/saveUser
+Content-Type: application/json
+
+{
+  "firstName": "Mark",
+  "lastName": "Alba",
+  "email": "mark@gmail.com",
+  "department": "Sociology "
+}
